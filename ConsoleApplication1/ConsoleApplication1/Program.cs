@@ -138,6 +138,86 @@ namespace ElsoValodiCharpProjekt
                 Console.WriteLine("A feladat nem megoldható!");
             }*/
 
+            //9.-10.feladat
+            /*Console.Write("Kérem az első együtthatót: ");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Kérem a második együtthatót: ");
+            int b = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Kérem a harmadik együtthatót: ");
+            int c = Convert.ToInt32(Console.ReadLine());
+            double x1 = 0.0d;
+            double x2 = 0.0d;
+
+            int d = b * b - 4 * a * c;
+
+            bool vanE = d < 0;
+
+            if (vanE)
+            {
+                Console.Write("Az egyenletnek nincsen valós megoldása.");
+            }
+            else
+            {
+                if (d == 0)
+                {
+                    x1 = (-b + Math.Sqrt(d)) / (2 * a);
+                    Console.Write($"Az egyenletnek egyetlen valós megoldása van: {x1}");
+                }
+                else
+                {
+                    x1 = (-b + Math.Sqrt(d)) / (2 * a);
+                    x2 = (-b - Math.Sqrt(d)) / (2 * a);
+                    Console.Write($"Az egyenlet megoldásai: {x1} és {x2}");
+                }
+            }
+
+            Console.ReadKey(true);*/
+
+            //11.feladat
+            /*Console.Write("Kérem a derékszögű háromszög egyik befogóját: ");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Kérem a derékszögű háromszög másik befogóját: ");
+            int b = Convert.ToInt32(Console.ReadLine());
+
+            double c = Math.Sqrt(a * a + b * b);
+
+            Console.Write($"Az átfogó hossza: {c:F2}");
+
+            Console.ReadKey(true);*/
+
+            //12.feladat
+            /*Console.Write("Kérem az első él hosszát: ");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Kérem az második él hosszát: ");
+            int b = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Kérem az harmadik él hosszát: ");
+            int c = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write($"A téglatest felülete: {(2 * (a * b)) + (2 * (a * c)) + (2 * (b * c))}, térfogata: {a * b * c}");
+            Console.ReadKey(true);*/
+
+            //13.feladat
+            /*Console.Write("Kérem a kör átmérőjét: ");
+            int d = Convert.ToInt32(Console.ReadLine());
+
+            double K = d * Math.PI;
+            double T = (((d * d) * Math.PI) / 4);
+
+            Console.Write($"A kör kerülete: {K}, területe: {T}");
+            Console.ReadKey(true);*/
+
+            //14.feladat
+            /*Console.Write("Kérem a kör sugarát: ");
+            int r = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Kérem a központi szöget: ");
+            int alfa = Convert.ToInt32(Console.ReadLine());
+
+            double korivHossz = (r * Math.PI * alfa) / 180;
+            double korivTerulet = (Math.Pow(r, 2) * Math.PI * alfa) / 180;
+
+            Console.Write($"A körív hossza: {korivHossz}, területe: {korivTerulet}");
+            Console.ReadKey(true);*/
+
             //15.feladat
             /*Console.Write("Kérem a pozitív egész számot: ");
             int bemenoszam = Int32.Parse(Console.ReadLine());
@@ -378,7 +458,7 @@ namespace ElsoValodiCharpProjekt
 
                Console.ReadKey(true);*/
             //22.feladat
-            int szam = 0;
+            /*int szam = 0;
             int osszeg = 0;
 
             while (szam <= 10)
@@ -400,7 +480,7 @@ namespace ElsoValodiCharpProjekt
                 Console.WriteLine($"A beolvasott számok összege: {osszeg}");
             }
 
-            Console.ReadKey(true);
+            Console.ReadKey(true);*/
 
         }
         static bool primszamE(int szam)
