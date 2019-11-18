@@ -482,6 +482,133 @@ namespace ElsoValodiCharpProjekt
 
             Console.ReadKey(true);*/
 
+            //23.feladat
+            /*string kimenet = "";
+            
+            Console.Write("Kérek egy egész számot: ");
+            int szam = Int32.Parse(Console.ReadLine());
+
+            kimenet += szam + " = ";
+
+            while (szam % 2 == 0)
+            {
+                kimenet += 2 + " * ";
+                szam = szam / 2;
+            }
+
+            kimenet += szam;
+
+            Console.Write(kimenet);
+
+            Console.ReadKey(true);*/
+
+            //24.feladat
+            /*string alma = "";
+
+            while (alma != "alma")
+            {
+                Console.Write("Kérem írja be az alma szót: ");
+                alma = Console.ReadLine();
+            }
+
+            Console.WriteLine("Az alma gyümölcs.");
+            Console.ReadKey(true);*/
+
+            //25.feladat
+            /*string kimenet = "";
+
+            Console.Write("Kérek egy egész számot: ");
+            int szam = Int32.Parse(Console.ReadLine());
+
+            kimenet += szam + " = ";
+            int egesz = 0;
+            int tort = -1;
+
+
+            while (szam - 3 >= 0)
+            {
+                szam = szam - 3;
+                egesz++;
+                tort = szam;
+            }
+
+            kimenet += egesz + " * 3 + " + tort;
+
+            Console.Write(kimenet);
+
+            Console.ReadKey(true);*/
+
+            //28. és 29.feladat
+            /*string kimenet = "";
+
+            Console.Write("Kérek egy egész számot: ");
+            int szam = Int32.Parse(Console.ReadLine());
+
+            kimenet += szam + " = ";
+
+            int meddig = (int)(Math.Floor(Math.Sqrt(szam))) + 1;
+            
+            for (int i = 2; i < meddig; i++)
+            {
+                if (szam % i == 0)
+                {
+                    if (szam == i)
+                    {
+                        kimenet += szam;
+                    }
+                    else
+                    {
+                        kimenet += i + " * ";
+                        szam = szam / i;
+                        i--;
+                    }
+                }
+            }
+
+            
+
+            Console.Write(kimenet);
+
+            Console.ReadKey(true);*/
+
+            //32.feladat
+            /*Console.Write("Kérek egy pozitív egész számot: ");
+            int szam = Convert.ToInt32(Console.ReadLine());
+
+            for (int i = 1; i < 21; i++)
+            {
+                Console.WriteLine($"{szam} * {i} = {szam * i}");
+            }
+
+            Console.ReadKey(true);*/
+
+            //33.feladat
+            /*Console.Write("Kérek egy pozitív egész számot: ");
+            int szam = Convert.ToInt32(Console.ReadLine());
+
+            for (int i = 1; i < szam + 1; i++)
+            {
+                for (int j = 1; j < szam + 1; j++)
+                {
+                    Console.SetCursorPosition(3 * (j - 1) + 1, i);
+                    Console.Write($"{i * j}");
+
+                }
+                Console.WriteLine();
+            }
+
+            Console.ReadKey(true);*/
+            //34.feladat
+            for (int i = 10; i < 100; i++)
+            {
+                for (int j = 10; j < 100; j++)
+                {
+
+                }
+            }
+
+
+
         }
         static bool primszamE(int szam)
         {
