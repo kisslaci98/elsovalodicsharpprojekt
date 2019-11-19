@@ -599,13 +599,43 @@ namespace ElsoValodiCharpProjekt
 
             Console.ReadKey(true);*/
             //34.feladat
+            /*Console.Write("A párosan speciális számok: ");
             for (int i = 10; i < 100; i++)
             {
+                int kulsoTizes = i / 10;
+                int kulsoEgyes = i % 10;
                 for (int j = 10; j < 100; j++)
                 {
-
+                    int belsoTizes = j / 10;
+                    int belsoEgyes = j % 10;
+                    int belsoSzorzat = i * j;
+                    int kulso = 10 * kulsoEgyes + kulsoTizes;
+                    int belso = 10 * belsoEgyes + belsoTizes;
+                    int kulsoSzorzat = kulso * belso;
+                    if (kulsoSzorzat == belsoSzorzat)
+                    {
+                        Console.WriteLine($"Az {i} és {j} párosan speciális számok");
+                    }
                 }
             }
+            Console.ReadKey(true);*/
+
+            //35.feladat
+            int sorok = 25;
+            for (int i = 0; i < sorok; i++)
+            {
+                for (int j = 0; j < sorok + 1; j++)
+                {
+                    if (32 + i + j * sorok < 255)
+                    {
+                        Console.SetCursorPosition(j * 10, i);
+                        Console.WriteLine($"{(char)(32 + i + j * sorok)} {32 + i + j * sorok}");
+                    }
+                }              
+            }
+
+            Console.ReadKey(true);
+
 
 
 
