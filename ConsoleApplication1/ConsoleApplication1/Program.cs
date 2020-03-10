@@ -598,6 +598,7 @@ namespace ElsoValodiCharpProjekt
             }
 
             Console.ReadKey(true);*/
+
             //34.feladat
             /*Console.Write("A párosan speciális számok: ");
             for (int i = 10; i < 100; i++)
@@ -621,7 +622,7 @@ namespace ElsoValodiCharpProjekt
             Console.ReadKey(true);*/
 
             //35.feladat
-            int sorok = 25;
+            /*int sorok = 25;
             for (int i = 0; i < sorok; i++)
             {
                 for (int j = 0; j < sorok + 1; j++)
@@ -634,8 +635,127 @@ namespace ElsoValodiCharpProjekt
                 }              
             }
 
-            Console.ReadKey(true);
+            Console.ReadKey(true);*/
 
+            //36.feladat
+
+            /*Console.Write("Kérem a sorok számát: ");
+            int sorok = Int32.Parse(Console.ReadLine());
+            Console.Write("Kérem az oszlopok számát: ");
+            int oszlopok = Int32.Parse(Console.ReadLine());
+
+            for (int i = 0; i < sorok; i++)
+            {
+                for (int j = 0; j < oszlopok; j++)
+                {
+                    if ((i + j) % 2 == 0)
+                    {
+                        Console.Write("X");
+                    }
+                    else
+                    {
+                        Console.Write("O");
+                    }
+                }
+                Console.WriteLine();
+            }
+
+            Console.ReadKey(true);*/
+
+            //37.feladat
+
+            /*Console.Write("Kérek egy pozitív egész számot: ");
+            int a = Int32.Parse(Console.ReadLine());
+
+            for (int i = 0; i < a; i++)
+            {
+                for (int j = 0; j < 2 * i + 1; j++)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+            }
+            Console.ReadKey(true);*/
+
+            //38.feladat
+
+            /* Console.Write("Kérek egy pozitív egész számot: ");
+            int a = Int32.Parse(Console.ReadLine());
+            for (int i = 0; i < a; i++)
+            {
+                Console.SetCursorPosition(20 - i, i + 1);
+                for (int j = 0; j < 2 * i + 1; j++)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+            }
+            Console.ReadKey(true);*/
+
+            //2.megoldás
+
+            /*Console.Write("Kérek egy pozitív egész számot: ");
+            int a = Int32.Parse(Console.ReadLine());
+
+            for (int i = 0; i < a; i++)
+            {
+                for (int k = 0; k < a - i; k++)
+                {
+                    Console.Write(" ");
+                }
+                for (int j = 0; j < 2 * i + 1; j++)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+            }
+            Console.ReadKey(true);*/
+
+            //39.feladat
+
+            /*Console.Write("Kérem a sorok számát: ");
+            int m = Int32.Parse(Console.ReadLine());
+            Console.Write("Kérem az oszlopok számát: ");
+            int n = Int32.Parse(Console.ReadLine());
+
+            for (int i = 0; i < m; i++)
+            {
+                for (int j = 0; j < n; j++)
+                {
+                    if ((i == 0) || (i == (m - 1)) || (i == (m - 1) / 2))
+                    {
+                        Console.Write('*');
+                    }
+                    else if ((j == 0) || (j == (n - 1)) || (j == (n - 1) / 2))
+                    {
+                        Console.Write('*');
+                    }
+                    else
+                    {
+                        Console.Write(' ');
+                    }
+                }
+                Console.WriteLine();
+            }
+            Console.ReadKey(true);*/
+
+            //41.feladat
+
+            for (int i = 0; i < 26; i++)
+            {
+                for (int j = 65 + i; j < 91; j++)
+                {
+                    Console.Write((char)j);
+                }
+                for (int k = 65; k < 65 + i; k++)
+                {
+                    Console.Write((char)k);
+                }
+                Console.WriteLine();
+            }
+            
+
+            Console.ReadKey(true);
 
 
 
